@@ -8,7 +8,7 @@ export interface ClientComponentProps {
 };
 
 export default function ClientComponent({ children }: ClientComponentProps) {
-    console.log('Client Component');
+
 
     return (
         <div>
