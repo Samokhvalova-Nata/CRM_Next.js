@@ -1,18 +1,18 @@
-'use client';
+// 'use client';
 
-import React from "react";
-
-
-export interface HeaderProps {
-    children?: React.ReactNode;
-};
-
-export default function Header({ children }: HeaderProps) {
+// import React from "react";
 
 
-    return (
-        <div>
-            {children}
-        </div>
-    );
-};
+// export interface HeaderProps {
+//     children?: React.ReactNode;
+// };
+
+// export default function Header({ children }: HeaderProps) {
+
+
+//     return (
+//         <div>
+//             {children}
+//         </div>
+//     );
+// };
