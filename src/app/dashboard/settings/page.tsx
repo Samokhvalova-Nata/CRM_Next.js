@@ -6,7 +6,7 @@ export interface PageProps {
 };
 
 export default function Page({ }: PageProps) {
-    console.log('Client Component');
+    // console.log('Client Component');
 
     return (
         <main>
