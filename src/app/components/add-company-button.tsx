@@ -14,7 +14,7 @@ export default function AddCompanyButton() {
     return (
         <>
             <Button onClick={() => setShow(false)}>Add company</Button>
-            <CompanyFormModal onSubmit={console.log}/>
+            {/* <CompanyFormModal onSubmit={console.log}/> */}
         </>
     );
 };
