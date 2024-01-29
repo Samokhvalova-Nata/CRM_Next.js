@@ -1,4 +1,7 @@
 import AddCompanyButton from "./components/add-company-button";
+import ClientComponent from "./components/client-component";
+import ServerComponent from "./components/server-component";
+import ServerComponentCopy from "./components/server-component copy";
 import StatusLabel, {Status} from "./components/status-label";
 import { headers } from 'next/headers'; 
 
@@ -15,6 +18,9 @@ export default function Home() {
 
       
       <AddCompanyButton/>
+
+      <ServerComponent/>
+      <ClientComponent><ServerComponentCopy/></ClientComponent>
     </main>
   )
 };
