@@ -1,6 +1,5 @@
 import AddCompanyButton from "./components/add-company-button";
-import StatusLabel, {Status} from "./components/status-label";
-import { headers } from 'next/headers'; 
+import MagicButton from "./components/magic-button";
 
 export default function Home() {
 
@@ -8,6 +7,7 @@ export default function Home() {
     <main>
       <h1 className="text-xl">Home page</h1>
       <AddCompanyButton/>
+      <MagicButton/>
     </main>
   )
 };
