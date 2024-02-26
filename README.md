@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## CRM web application aimed at optimizing supplier information management
+
+Click link: [CRM](https://crm-next-jwqed00vg-samokhvalova-natas-projects.vercel.app/dashboard/).
+
+## The application consists of 3 pages:
+
+### Dashboard
+
+- "/dashboard" - a page contains information about companies, categories, promotions, etc.
+
+![Dashboard page](/assets/images/dashboard.png)
+
+### Сompanies
+
+- "/companies" - a page contains companies' list.
+
+![Сompanies page](/assets/images/conpanies.png)
+
+#### Add company
+
+Clicking the 'Add company' button opens a modal window with fields about new company.
+
+![Button Add company](/assets/images/add-company-btn.png)
+
+### Сompany page
+
+- "/companies/[id]" - a page contains information about company.
+
+![Сompany page](/assets/images/company.png)
+
+#### Add promotion
+
+Clicking the 'Add promotion' button opens a modal window with fields about new promotion.
+
+![Button Add promotion](/assets/images/add-new-promo-btn.png)
 
 ## Getting Started
 
@@ -14,23 +48,12 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technology Stack:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Next](https://img.shields.io/badge/-NextJS-05122A?style=flat&logo=next)&nbsp;
+![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-05122A?style=flat&logo=tailwindcss)&nbsp;
+![Typescript](https://img.shields.io/badge/-Typescript-05122A?style=flat&logo=typescript)&nbsp;
+![Mockapi](https://img.shields.io/badge/-Mockapi-05122A?style=flat&logo=Mockapi)&nbsp;
